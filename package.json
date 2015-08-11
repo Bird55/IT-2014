@@ -1,0 +1,41 @@
+{
+  "name": "IT-2014",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Bird55/IT-2014",
+  "author": {
+    "name": "Alexey Solovyev",
+    "email": "bird55@narod.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Bird55/IT-2014.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bird55/IT-2014/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Bird55/IT-2014/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/IT-2014",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-stylus": "^0.22.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-slim": "^0.1.0"
+  },
+  "keywords": []
+}
